@@ -1,0 +1,38 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262f2f; /* Change the color to your desired header color */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px; /* Increased height for better visibility */
+    padding: 0 20px; /* Added padding for a better layout */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+    color: rgb(255, 255, 255);
+}
+
+.items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px; /* Adjusted the margin to accommodate the header */
+    margin-bottom: 70px; /* Adjusted the margin to accommodate the footer */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303939; /* Change the color to your desired footer color */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px; /* Increased height for better visibility */
+    padding: 0 20px; /* Added padding for a better layout */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+    color: rgb(255, 255, 255);
+}
